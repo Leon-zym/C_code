@@ -8,7 +8,7 @@
             "name": "gcc.exe - 生成和调试活动文件",
             "type": "cppdbg",
             "request": "launch",
-            "program": "D:\\Github_Repo\\C_exe\\${fileBasenameNoExtension}.exe",
+            "program": "C:\\Users\\leonz\\Github_Repo\\C_exe\\${fileBasenameNoExtension}.exe",
            // "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
@@ -16,7 +16,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "D:\\Tools\\mingw64\\bin\\gdb.exe",
+            "miDebuggerPath": "C:\\Program Files (x86)\\Tools\\mingw64\\bin\\gdb.exe",
             "setupCommands": [
                 {
                     "description": "为 gdb 启用整齐打印",
