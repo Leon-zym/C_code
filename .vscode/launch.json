@@ -5,26 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "gcc.exe - 生成和调试活动文件",
+            "name": "clang - 生成和调试活动文件",
             "type": "cppdbg",
             "request": "launch",
-            "program": "C:\\Users\\leonz\\Github_Repo\\C_exe\\${fileBasenameNoExtension}.exe",
-           // "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "program": "/Users/leon/Documents/GitHub/C_program/${fileBasenameNoExtension}",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
-            "MIMode": "gdb",
-            "miDebuggerPath": "C:\\Program Files (x86)\\Tools\\mingw64\\bin\\gdb.exe",
-            "setupCommands": [
-                {
-                    "description": "为 gdb 启用整齐打印",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                }
-            ],
-            "preLaunchTask": "C/C++: gcc.exe build active file"
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: clang build active file"
         }
     ]
 }

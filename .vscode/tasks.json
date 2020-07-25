@@ -2,14 +2,13 @@
     "tasks": [
         {
             "type": "shell",
-            "label": "C/C++: gcc.exe build active file",
-            "command": "C:\\Program Files (x86)\\Tools\\mingw64\\bin\\gcc.exe",
+            "label": "C/C++: clang build active file",
+            "command": "/usr/bin/clang",
             "args": [
                 "-g",
                 "${file}",
                 "-o",
-                "C:\\Users\\leonz\\Github_Repo\\C_exe\\${fileBasenameNoExtension}.exe"
-               // "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "/Users/leon/Documents/GitHub/C_program/${fileBasenameNoExtension}"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
