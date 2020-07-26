@@ -8,7 +8,7 @@
             "name": "clang - 生成和调试活动文件",
             "type": "cppdbg",
             "request": "launch",
-            "program": "/Users/leon/Documents/GitHub/C_program/${fileBasenameNoExtension}",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
