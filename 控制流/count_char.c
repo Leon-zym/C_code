@@ -18,9 +18,9 @@ int main()
 #include<stdio.h>
 int main()
 {
-    int c,n;
+    int n=0;
     printf("Please input your characters\n");
-    while((c=getchar())!='\n')
+    while((getchar())!='\n')
         ++n;
     printf("The numbers of characters are %d\n",n);
 }
