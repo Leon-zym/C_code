@@ -32,14 +32,21 @@ int main()
     scanf("%lld",&n);
     if(n<=1)
         state=1;
-    for(i=2;i<=n/2;i++)
+    else
     {
-        if(n%i==0)
-        state=1;
-        break;
+        for(i=2;i<=n/2;i++)
+        {
+            if(n%i==0)
+            {
+                state=1;
+                break;
+            }
+        }
     }
     if(state==0)
-        printf("This is a prime number.");
+        printf("This is a prime number.\n");
     else
-        printf("This is not a prime number.");
+        printf("This is not a prime number.\n");
+
+    printf("i=%lld\n",i);
 }
