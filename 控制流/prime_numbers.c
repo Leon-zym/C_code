@@ -39,7 +39,7 @@ int main()
             if(n%i==0)
             {
                 state=1;
-                break;
+                break;      //若已经证实不是素数，则跳出for循环。
             }
         }
     }
