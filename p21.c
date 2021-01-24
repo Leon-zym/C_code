@@ -13,5 +13,5 @@ int main()
     printf("the address of number is %p\n",pn);
     printf("the address of character is %p\n",pc);
 
-    printf("the size of pointer is %ld\n",sizeof(pn));
+    printf("the size of pointer is %ld\n",sizeof(pn));      //系统是64位，所以输出是8字节
 }
