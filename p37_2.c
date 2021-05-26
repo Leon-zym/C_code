@@ -5,6 +5,6 @@ int main(void)
 {
     while(1)
     {
-        malloc(1024);
+        malloc(1024);       //内存溢出
     }
 }
